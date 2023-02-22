@@ -67,6 +67,14 @@ function Modal({}) {
               left: '0'
             }}
             muted={muted}
+            config={{
+              youtube: {
+                playerVars: {
+                  origin: window?.location,
+                  host: 'https://www.youtube.com'
+                }
+              }
+            }}
           />
           <div className='absolute bottom-10 flex w-full items-center justify-between px-10'>
             <div className='flex space-x-2'>
