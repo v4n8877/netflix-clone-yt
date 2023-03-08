@@ -35,19 +35,20 @@ function login() {
       <Head>
         <title>Netflix</title>
         <link rel="icon" href="/favicon.ico" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3018455896075554"
-          crossOrigin="anonymous"></script>
-        <ins class="adsbygoogle"
-          style={{"display": "block"}}
-          data-ad-client="ca-pub-3018455896075554"
-          data-ad-slot="4883954539"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
       </Head>
-
+      <div>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3018455896075554"
+            crossOrigin="anonymous"></script>
+        <ins className="adsbygoogle"
+            style={{display: 'block'}}
+            data-ad-client="ca-pub-3018455896075554"
+            data-ad-slot="4883954539"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
       <Image
         src="https://rb.gy/p2hphi"
         fill
