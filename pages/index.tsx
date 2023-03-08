@@ -41,6 +41,10 @@ const Home = ({
       <Head>
         <title>Home - Netflix</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3018455896075554"
+          crossorigin="anonymous" />
       </Head>
 
       <Header />
