@@ -38,6 +38,13 @@ const Home = ({
     <div className={`relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-auto lg:overflow-hidden 
       ${showModal && '!h-screen overflow-hidden'} `}
     >
+      <script
+        id="Adsense-id"
+        async
+        onError={(e) => { console.error("Script failed to load", e); }}
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3018455896075554"
+        crossOrigin="anonymous"
+      />
       <Head>
         <title>Home - Netflix</title>
         <link rel="icon" href="/favicon.ico" />
@@ -48,7 +55,16 @@ const Home = ({
       </Head>
 
       <Header />
-
+      
+      <ins className="adsbygoogle"
+          style={{display: 'block'}}
+          data-ad-format="fluid"
+          data-ad-layout-key="-6j+ed+2i-1n-4w"
+          data-ad-client="ca-pub-3018455896075554"
+          data-ad-slot="5199084655"></ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
       <main className='relative pl-6 pb-24 lg:space-y-24 lg:pl-16'>
         <Banner
           netflixOriginals={netflixOriginals}
